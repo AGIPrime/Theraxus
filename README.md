@@ -76,6 +76,8 @@ Now, install Python dependencies:
 
 ### Step 5️⃣: Launch Theraxus! 🚀
 
+You can rut it via `gui.py` or run individual modes by running the files below:
+
 Choose between:
 
 -   **Text-Based Chat**: `python runllm.py`
