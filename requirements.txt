@@ -1,0 +1,25 @@
+# requirements.txt
+
+# PyTorch with CUDA 12.4 for GPU optimizations
+torch==2.5.1+cu124
+-f https://download.pytorch.org/whl/cu124/torch_stable.html
+
+# Whisper for Speech-to-Text (STT)
+openai-whisper==2023.3.1
+
+# Approximate Nearest Neighbors
+hnswlib
+
+# Sentence Embeddings
+sentence-transformers
+
+# Audio Input/Output
+sounddevice
+
+# Text-to-Speech (TTS) - pyttsx3
+pyttsx3
+
+# Additional Dependencies
+numpy
+
+transformers
