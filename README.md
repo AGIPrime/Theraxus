@@ -168,8 +168,8 @@ AI: Based on your input, here's a summary...`
 
 ✨ **Customization & Extension** ✨
 ---------------------------------
-
-**Theraxus AI** is built for **YOU** to customize! 🛠️ Add more TTS/STT features, swap **Models** without breaking the code choose, **Mistral**, **Gemma**, **LLama** or **Anymodel** for richer responses, expand the **RAG** capabilities - the sky's the limit! 🌌
+ 
+**Theraxus AI** is built for **YOU** to customize! 🛠️ Add more TTS/STT features, swap **Models** without breaking the code choose, **Mistral**, **Gemma**, **LLama** or **Any model** for richer responses, expand the **RAG** capabilities, build **Vision Capabilities** or extend API capabilities, build bigger projects - the sky's the limit! 🌌
 
 Change configurations in `config.py`:
 
