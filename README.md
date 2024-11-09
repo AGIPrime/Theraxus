@@ -95,6 +95,8 @@ Choose between:
 
 ├── **database_manager.py**
 
+├── **gui.py**
+
 ├── **rag_optimizer.py**
 
 ├── **runllm.py**
