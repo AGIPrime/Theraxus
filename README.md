@@ -169,7 +169,7 @@ AI: Based on your input, here's a summary...`
 ✨ **Customization & Extension** ✨
 ---------------------------------
  
-**Theraxus AI** is built for **YOU** to customize! 🛠️ Add more TTS/STT features, swap **Models** without breaking the code choose, **Mistral**, **Gemma**, **LLama** or **Any model** for richer responses, expand the **RAG** capabilities, build **Vision Capabilities** or extend API capabilities, build bigger projects - the sky's the limit! 🌌
+**Theraxus AI** is built for **YOU** to customize! 🛠️ Add more TTS/STT features, swap **Models** without breaking the code choose, **Mistral**, **Gemma**, **LLama** or **Any model** for richer responses, expand the **RAG** capabilities, build **Vision Capabilities** or extend API capabilities, build bigger projects - the sky's the limit! 🌌. Since the project is modular, a lot of settings cam be changed from config file only, no need to rewrite the entire code or spend hours wasting time in the code replacing and rewritting individual elements.
 
 Change configurations in `config.py`:
 
