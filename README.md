@@ -27,7 +27,7 @@ Because **Theraxus** isn't just an AI - it's **YOUR AI**. Built to run locally a
     -   **Upload Documents**: Keep your files handy - add and manage text-based documents effortlessly.
     -   **View Summaries**: Get quick, **concise summaries** of your uploaded files.
 
--   **🔍 Retrieval-Augmented Generation (RAG)**: Turbocharge your assistant's responses by intelligently retrieving the most relevant content from your document repository. ⚙️📖
+-   **🔍 Retrieval-Augmented Generation (RAG)**: Turbocharge your assistant's responses by intelligently retrieving the most relevant content from your document repository. Talk to your            files like never before. ⚙️📖
 
 -   **📝 Chat History**: Keep track of your past conversations with **dedicated chat histories**, so you never miss a beat. 📜
 
