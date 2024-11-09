@@ -33,6 +33,8 @@ Because **Theraxus** isn't just an AI - it's **YOUR AI**. Built to run locally a
 
 -   **🔄 Modular and Customizable**: Everything's designed in modules for easy customization. **Add features, tweak behaviors**, or **integrate new models** - make Theraxus truly yours! 🔧🛠️
 
+-   **Multi-Lingual Voice & Chat Support**: Since the project is only limited by the model you use, you can do essentially a lot of things and take this next level as well.
+
 * * * * *
 
 💻 **Get Started in Minutes!** ⏱️
