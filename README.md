@@ -21,7 +21,7 @@ Because **Theraxus** isn't just an AI - it's **YOUR AI**. Built to run locally a
 
 -   **🗨️ Text-to-Speech (TTS)**: Want to hear your assistant's voice? With **pyttsx3**, Theraxus AI can read things back to you smoothly. 🗣️
 
--  ** Multi-User Profile**: Seamlessly switch and manage multiple user identities 👥 for a personalized and dynamic AI experience! 🔄
+-  **Multi-User Profile**: Seamlessly switch and manage multiple user identities 👥 for a personalized and dynamic AI experience! 🔄
 
 -   **📚 Document Management**:
     -   **Upload Documents**: Keep your files handy - add and manage text-based documents effortlessly.
@@ -69,9 +69,9 @@ Now, install Python dependencies:
 
 ### Step 4️⃣: Add the Required Models 📥
 
-**LLaMA** and **Whisper** models are needed for full functionality:
+**Local AI model** and **Whisper** models are needed for full functionality, I recommend `GGUF` models from hugging face, pick your choice:
 
--   Place **LLaMA models** (e.g. `.gguf`) in the `models/` directory.
+-   Place **LLaMA model** (e.g. `.gguf`) in the `models/` directory.
 -   **Whisper models** download automatically when you start using **STT**.
 
 ### Step 5️⃣: Launch Theraxus! 🚀
@@ -83,9 +83,9 @@ Choose between:
 
 * * * * *
 **Directory Structure
-**
+* * * * * 
 
-Theraxus/
+**Theraxus/
 ├── config.py
 ├── database_manager.py
 ├── rag_optimizer.py
@@ -110,7 +110,7 @@ Theraxus/
 ├── logs/
 │   └── theraxus.log
 └── .gitignore
-
+**
 * * * * *
 
 📝 **Usage Examples** 🚀
