@@ -31,7 +31,7 @@ Because **Theraxus** isn't just an AI - it's **YOUR AI**. Built to run locally a
 
 -   **📝 Chat History**: Keep track of your past conversations with **dedicated chat histories**, so you never miss a beat. 📜
 
--   **🔄 Modular and Customizable**: Everything's designed in modules for easy customization. **Add features, tweak behaviors**, or integrate new models - make Theraxus truly yours! 🔧🛠️
+-   **🔄 Modular and Customizable**: Everything's designed in modules for easy customization. **Add features, tweak behaviors**, or **integrate new models** - make Theraxus truly yours! 🔧🛠️
 
 * * * * *
 
@@ -85,54 +85,55 @@ Choose between:
 **Directory Structure
 * * * * * 
 
-**Theraxus/
-├── config.py
+**Theraxus/**
 
-├── database_manager.py
+├── **config.py**
 
-├── rag_optimizer.py
+├── **database_manager.py**
 
-├── runllm.py
+├── **rag_optimizer.py**
 
-├── stt.py
+├── **runllm.py**
 
-├── tts.py
+├── **stt.py**
 
-├── voice_runllm.py
+├── **tts.py**
 
-├── requirements.txt
+├── **voice_runllm.py**
 
-├── README.md
+├── **requirements.txt**
 
-├── models/
+├── **README.md**
 
-│   └── Llama-3.2-3B-Instruct-Q8_0.gguf
+├── **models/**
 
-├── data/
+│   └── **Your_Model.gguf**
 
-│   ├── audio/
+├── **data/**
 
-│   ├── docs/
+│   ├── **audio/**
 
-│   ├── conversations/
+│   ├── **docs/**
 
-│   ├── vector_db/
+│   ├── **conversations/**
 
-│   │   ├── index/
+│   ├── **vector_db/**
 
-│   │   └── embeddings/
+│   │   ├── **index/**
 
-│   └── cache/
+│   │   └── **embeddings/**
 
-│       ├── whisper_models/
+│   └── **cache/**
 
-│       └── transformers_models/
+│       ├── **whisper_models/**
 
-├── logs/
+│       └── **transformers_models/**
 
-│   └── theraxus.log
+├── **logs/**
 
-└── .gitignore**
+│   └── **theraxus.log**
+
+└── **.gitignore**
 
 * * * * *
 
@@ -224,6 +225,18 @@ Big shout-out to:
 -   **Hugging Face** for models
 -   **hnswlib** for efficient document retrieval. 📚
 -   **Sentence-Transformers** for meaningful sentence embeddings. 💡
+
+* * * * *
+
+* * * * *
+
+⚠️ **Disclaimer** ⚠️
+
+Hey there! Just a quick heads-up: This **minimal version** of **Theraxus AI** was developed by me alone, so I've removed a lot of the more intricate code to avoid any clashes with other systems. What you'll find here is the **core structure** and all the main features, but simplified to ensure it's easy to understand and integrate. I assume you know what you're doing and have all understanding of modification and implementation.
+
+Think of this as a **foundation**---a light version that still captures the essence of what Theraxus is all about, but without the bells and whistles that might complicate things. It's great to get you started, and you can always build upon it to make it your own!
+
+Please remember to provide **credit** when using this version, in line with the **Apache License 2.0**. Thanks for understanding and enjoy exploring Theraxus.
 
 * * * * *
 
