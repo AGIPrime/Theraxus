@@ -82,7 +82,7 @@ Choose between:
 -   **Voice-Based Chat**: `python voice_runllm.py`
 
 * * * * *
-**Directory Structure
+**Directory Structure**
 * * * * * 
 
 **Theraxus/**
@@ -145,8 +145,11 @@ Choose between:
 `Welcome to Theraxus AI! Type 'exit' to quit.`
 
 `You: load`
+
 `Processing files... Added 'document1.txt'. Added 'document2.pdf`
+
 `You: Explain this file to me`
+
 `AI: Based on your input, here's a summary...`
 
 ### 🗣️ **Voice Chat** Example:
