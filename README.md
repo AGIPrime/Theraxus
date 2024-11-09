@@ -87,30 +87,53 @@ Choose between:
 
 **Theraxus/
 ├── config.py
+
 ├── database_manager.py
+
 ├── rag_optimizer.py
+
 ├── runllm.py
+
 ├── stt.py
+
 ├── tts.py
+
 ├── voice_runllm.py
+
 ├── requirements.txt
+
 ├── README.md
+
 ├── models/
-│   └── **Yourmodel**
+
+│   └── Llama-3.2-3B-Instruct-Q8_0.gguf
+
 ├── data/
+
 │   ├── audio/
+
 │   ├── docs/
+
 │   ├── conversations/
+
 │   ├── vector_db/
+
 │   │   ├── index/
+
 │   │   └── embeddings/
+
 │   └── cache/
+
 │       ├── whisper_models/
+
 │       └── transformers_models/
+
 ├── logs/
+
 │   └── theraxus.log
-└── .gitignore
-**
+
+└── .gitignore**
+
 * * * * *
 
 📝 **Usage Examples** 🚀
