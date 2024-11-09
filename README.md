@@ -82,13 +82,10 @@ Choose between:
 -   **Voice-Based Chat**: `python voice_runllm.py`
 
 * * * * *
+**Directory Structure
+**
 
-📂 **Directory Structure** 🗂️
-------------------------------
-
-Here's what you'll see inside:
-
-`theraxus-ai-demo/
+Theraxus/
 ├── config.py
 ├── database_manager.py
 ├── rag_optimizer.py
@@ -99,20 +96,20 @@ Here's what you'll see inside:
 ├── requirements.txt
 ├── README.md
 ├── models/
-│   └── Llama-3.2-3B-Instruct-Q8_0.gguf
+│   └── **Yourmodel**
 ├── data/
-│   ├── audio/
-│   ├── docs/
-│   ├── conversations/
-│   ├── vector_db/
-│   │   ├── index/
-│   │   └── embeddings/
-│   └── cache/
-│       ├── whisper_models/
-│       └── transformers_models/
+│   ├── audio/
+│   ├── docs/
+│   ├── conversations/
+│   ├── vector_db/
+│   │   ├── index/
+│   │   └── embeddings/
+│   └── cache/
+│       ├── whisper_models/
+│       └── transformers_models/
 ├── logs/
-│   └── theraxus.log
-└── .gitignore`
+│   └── theraxus.log
+└── .gitignore
 
 * * * * *
 
@@ -121,21 +118,19 @@ Here's what you'll see inside:
 
 ### 💬 **Text Chat** Example:
 
-`Welcome to Theraxus AI! Type 'exit' to quit.
+`Welcome to Theraxus AI! Type 'exit' to quit.`
 
-You: load
-Processing files... Added 'document1.txt'. Added 'document2.pdf'.
-You: Hello
-AI: Based on your input, here's a summary...`
+`You: load`
+`Processing files... Added 'document1.txt'. Added 'document2.pdf`
+`You: Explain this file to me`
+`AI: Based on your input, here's a summary...`
 
 ### 🗣️ **Voice Chat** Example:
-
-Copy code
 
 `Voice Interface Ready! Speak into your microphone.
 Listening...
 You: load [File selection dialog opens]
-You: Hello
+You: Sumaarize the file for me
 AI: Based on your input, here's a summary...`
 
 * * * * *
@@ -149,10 +144,10 @@ Change configurations in `config.py`:
 
 `STT_CONFIG = {
     'MODEL_NAME': 'small',  # Modify to 'small' or 'medium' for Whisper.
-    'SAMPLE_RATE': 16000,
-}
+    'SAMPLE_RATE': 16000
+}`
 
-TTS_CONFIG = {
+`TTS_CONFIG = {
     'RATE': 180,  # Faster speech rate
     'VOLUME': 0.8,  # Lower volume
 }`
